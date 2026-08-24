@@ -1,7 +1,9 @@
-# Home Menu Mod Manager for 3DS
+# 3DS Home Menu Mod Manager
 
 A Nintendo 3DS homebrew app designed to seamlessly swap LayeredFS-based Home
 Menu mods.
+
+![](/screenshots/app.png)
 
 ## Prerequisites
 * A console running Luma3DS custom firmware.
@@ -16,6 +18,8 @@ Menu mods.
    contents of this text file dictate the exact name displayed within the app
    interface (example: `My Custom Home Menu UI`). If this file is missing, the
    app defaults to displaying "Unknown Mod".
+
+![](/screenshots/mods-setup.png)
 
 You can find my
 [Home Menu mod](https://aromakitsune.github.io/3DS-Custom-Home-Menu-UI) here,
