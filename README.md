@@ -43,3 +43,6 @@ and more mods on the bottom of the page.
 | KOR           | `000400300000A902` |
 | CHN           | `000400300000B102` |
 | TWN           | `000400300000B202` |
+
+## License
+[MIT License](/LICENSE)
