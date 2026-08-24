@@ -35,9 +35,11 @@ and more mods on the bottom of the page.
 * Once the mod is applied, press `SELECT` to reboot the system.
 
 ## Compatible system regions
-* EUR - `0004003000009802`
-* USA - `0004003000008F02`
-* JPN - `0004003000008202`
-* KOR - `000400300000A902`
-* CHN - `000400300000B102`
-* TWN - `000400300000B202`
+| System region | Home Menu Title ID |
+| :-----------: | :----------------: |
+| EUR           | `0004003000009802` |
+| USA           | `0004003000008F02` |
+| JPN           | `0004003000008202` |
+| KOR           | `000400300000A902` |
+| CHN           | `000400300000B102` |
+| TWN           | `000400300000B202` |
