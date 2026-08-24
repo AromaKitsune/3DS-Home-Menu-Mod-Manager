@@ -1,0 +1,48 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build 3DS (.3dsx)",
+            "type": "shell",
+            "command": "C:/devkitPro/msys2/usr/bin/make.exe",
+            "options": {
+                "env": {
+                    "DEVKITPRO": "/opt/devkitpro",
+                    "DEVKITARM": "/opt/devkitpro/devkitARM",
+                    "PATH": "C:/devkitPro/msys2/usr/bin;${env:PATH}"
+                }
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "presentation": {
+                "clear": true,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Clean Project",
+            "type": "shell",
+            "command": "C:/devkitPro/msys2/usr/bin/make.exe",
+            "args": ["clean"],
+            "options": {
+                "env": {
+                    "DEVKITPRO": "/opt/devkitpro",
+                    "DEVKITARM": "/opt/devkitpro/devkitARM",
+                    "PATH": "C:/devkitPro/msys2/usr/bin;${env:PATH}"
+                }
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "problemMatcher": ["$gcc"],
+            "presentation": {
+                "clear": true,
+                "panel": "shared"
+            }
+        }
+    ]
+}
