@@ -6,8 +6,9 @@ Menu mods.
 ![](/screenshots/app.png)
 
 ## Prerequisites
-* A console running Luma3DS custom firmware.
+* A console running [Luma3DS custom firmware](https://3ds.hacks.guide/).
 * "Enable game patching" must be activated in the Luma3DS configuration menu.
+  * Hold the `SELECT` button while powering on the 3DS.
 
 ## Installation & mods setup
 1. Copy the `.3dsx` file to the `/3ds/` folder on the SD card.
@@ -33,7 +34,7 @@ and more mods on the bottom of the page.
   is renamed to `<TitleID>`.
 * Once the mod is applied, press `SELECT` to reboot the system.
 
-## Compatible system regions:
+## Compatible system regions
 * EUR - `0004003000009802`
 * USA - `0004003000008F02`
 * JPN - `0004003000008202`
