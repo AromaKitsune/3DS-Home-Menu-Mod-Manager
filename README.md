@@ -11,12 +11,14 @@ Menu mods.
   * Hold the `SELECT` button while powering on the 3DS.
 
 ## Installation & mods setup
-1. Copy the `.3dsx` file to the `/3ds/` folder on the SD card.
-2. Place Home Menu mods inside `sdmc:/luma/titles/`.
-3. Inactive mod folders must follow the naming convention:
+1. Download the `.3dsx` file from the
+[Releases page](https://github.com/AromaKitsune/3DS-Home-Menu-Mod-Manager/releases).
+2. Copy the `.3dsx` file to the `/3ds/` folder on the SD card.
+3. Place Home Menu mods inside `sdmc:/luma/titles/`.
+4. Inactive mod folders must follow the naming convention:
    * `<TitleID> [<Mod Name>]`
    * Example: `0004003000009802 [My Custom Home Menu UI]`
-4. Every mod folder must contain a plain text file named `mod_name.txt`. The
+5. Every mod folder must contain a plain text file named `mod_name.txt`. The
    contents of this text file dictate the exact name displayed within the app
    interface (example: `My Custom Home Menu UI`). If this file is missing, the
    app defaults to displaying "Unknown Mod".
